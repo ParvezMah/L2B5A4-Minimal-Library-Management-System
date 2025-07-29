@@ -1,0 +1,11 @@
+import express from "express";
+
+
+const app = express();
+
+
+app.get("/", (req, res)=>{
+    res.send("Welcome a Minimal library management system!!!");
+})
+
+export default app;
